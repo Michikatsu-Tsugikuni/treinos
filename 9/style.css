@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: blue;
+    --cor02: rgb(0, 132, 255);
+}
+
+body {
+    background-color: var(--cor02);
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+header {
+    background-color: var(--cor01);
+}
+
+nav {
+    background-color: var(--cor01);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-indent: 30px;
+}
+
+img {
+    width: 100%;
+}

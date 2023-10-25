@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.padrao{
+    background-color: grey;
+    border: 1px solid  black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+}
+
+div:hover {
+    background-color: blue
+}
+
+#um {}
+
+#dois {}
+
+#tres {}
